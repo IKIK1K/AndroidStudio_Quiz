@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:text="      Form"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:text="      Question is here!!"
+        />
+
+    <ImageView
+        android:id="Image is here!!"
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:maxWidth="300dp"
+        android:maxHeight="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="Image is here!!"/>
+
+    <Button
+        android:id="@+id/btnHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hint"
+        android:layout_weight="0.2"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="#dbdbdb"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:text="Collect_Answer"
+        android:layout_weight="0.2"
+        android:id="@+id/btnQuizCollect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#dbdbdb"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/btnQuizMiss2"
+        android:text="Wrong_Answer"
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:backgroundTint="#dbdbdb"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnQuizMiss1"
+        android:text="Wrong_Answer"
+        android:layout_weight="0.2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:backgroundTint="#dbdbdb"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:text="Wrong_Answer"
+        android:id="@+id/btnQuizMiss3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:backgroundTint="#dbdbdb"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="20sp"
+        />
+
+
+</LinearLayout>
